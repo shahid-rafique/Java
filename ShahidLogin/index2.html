@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+       console.log('hello');
+       alert('yaa');
+       let age = prompt('What is your Age...');
+       console.log(age);
+       //document.getElementById('someText').innerHTML;
+      
+       function greeting(){
+    var name = prompt('What is your name');
+    var result = 'Hello ' + name;
+    console.log(result);
+}
+// Call function greeting
+greeting();
+      
+function sumNumbers(num1,num2){
+    var result = num1+num2;
+    console.log(num1+num2);
+}
+sumNumbers(10,10);
+
+
+//While loop
+var num =0;
+
+while (num < 100){
+    num +=1; //in while loop if you delete this line will go infinite
+    console.log(num);
+}
+
+//for loop
+for(let num =1 ; num <100; num++){
+    console.log(num);
+}
+       src="home.js";
+
+// Data types
+let yourAge = 18;                           // number
+let yourName = 'Shahid';
+let name ={first: 'Shahid',last:'Rafique'}; // object
+let truth = false;                          // boolean
+let groceries = ['apple','banana','orange']; //array
+let random;                                 // undefined
+let nothing = null;                         // value null
+
+//String in java script
+let fruit ='banana';
+let moreFruits = 'banana\napple';           //new line
+console.log(fruit.length);
+console.log(fruit.indexOf('a'));
+console.slice(fruit.indexOf(2,5));          // will print nana
+   </script>
+</body>
+</html>
